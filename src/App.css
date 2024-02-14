@@ -1,0 +1,10 @@
+.App{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  overflow: hidden;
+}
+::-webkit-scrollbar{
+  display: none;
+}

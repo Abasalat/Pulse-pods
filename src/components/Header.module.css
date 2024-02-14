@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: black;
+    justify-content: center;
+    box-shadow: 0 4px 4px rgba(255, 255, 255, 0.2); /* Adjust shadow color */
+  }
+  
+  
+.left{
+    color: white;
+    width: 25%;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    color: white;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    gap: 5rem;
+    font-size: 20px;
+    
+}
+
+.list>button{
+    margin-left: 1rem;
+}
+
+.search{
+    width: 200px; /* Adjust width as needed */
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none; /* Remove default focus outline */
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+  }
+  
+.search:focus {
+    border-color: dodgerblue; /* Change border color on focus */
+}
+
+.btn{
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+}
+.btn:hover {
+        background-color: #007acc; /* Darker shade of dodgerblue on hover */
+}
+      

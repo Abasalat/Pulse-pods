@@ -1,7 +1,10 @@
 import React from "react";
 import styles from "./Shop.module.css";
 import first from "../assets/first.png";
-import img8 from "../assets/img8.jpg";
+import second from "../assets/second.png";
+import forth from "../assets/forth.png";
+import m10 from "../assets/10.png";
+
 const Shop = () => {
   return (
     <div className={styles.mainContainer}>
@@ -15,26 +18,54 @@ const Shop = () => {
               Precision-engineered for an immersive audio experience.
             </p>
           </div>
-          <img src={first} alt="" className={styles.image} />
-          <div className={styles.description}>
+          <div className={styles.images}>
+            <img
+              src={first}
+              alt=""
+              className={styles.image}
+              style={{ width: "600px" }}
+            />
+          </div>
+          <div className={styles.description} style={{ marginTop: "-90px" }}>
             <h1 style={{ fontSize: "80px" }}>Exceptional</h1>
             <h2 style={{ fontSize: "50px" }}>Sound Quality</h2>
             <p style={{ fontSize: "30px", lineHeight: "2rem" }}>
               Precision-engineered for an immersive audio experience.
             </p>
           </div>
-          <img src={first} alt="" className={styles.image} />
+          <div className={styles.images}>
+            <img
+              src={forth}
+              alt=""
+              className={styles.image}
+              style={{ width: "700px", marginTop: "150px" }}
+            />
+          </div>
         </div>
         <div className={styles.right}>
-          <img src={img8} alt="" className={styles.image} />
-          <div className={styles.description}>
+          <div className={styles.images}>
+            <img
+              src={second}
+              alt=""
+              className={styles.image}
+              style={{ width: "600px", marginTop: "-60px" }}
+            />
+          </div>
+          <div className={styles.description} style={{ marginTop: "-80px" }}>
             <h1 style={{ fontSize: "80px" }}>Exceptional</h1>
             <h2 style={{ fontSize: "50px" }}>Sound Quality</h2>
             <p style={{ fontSize: "30px", lineHeight: "2rem" }}>
               Precision-engineered for an immersive audio experience.
             </p>
           </div>
-          <img src={first} alt="" className={styles.image} />
+          <div className={styles.images}>
+            <img
+              src={m10}
+              alt=""
+              className={styles.image}
+              style={{ width: "700px", marginTop: "60px", marginRight: "60px" }}
+            />
+          </div>
           <div className={styles.description}>
             <h1 style={{ fontSize: "80px" }}>Exceptional</h1>
             <h2 style={{ fontSize: "50px" }}>Sound Quality</h2>

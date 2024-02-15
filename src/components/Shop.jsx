@@ -17,7 +17,7 @@ const Shop = () => {
   const [ref6, inView6] = useInView({ threshold: 0.5 });
   const [ref7, inView7] = useInView({ threshold: 0.5 });
   return (
-    <div className={styles.mainContainer}>
+    <div className={styles.mainContainer} id="shop">
       <h1>Why PulsePods?</h1>
       <div className={styles.container}>
         <div className={styles.left}>

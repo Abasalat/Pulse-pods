@@ -5,7 +5,7 @@ import { IoLogoLinkedin } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className={styles.main}>
+    <div className={styles.main} id="contact">
       <div className={styles.container}>
         <div className={styles.list}>
           <h1>About us</h1>

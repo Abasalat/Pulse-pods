@@ -25,7 +25,7 @@ const Home = () => {
   }, [message.length]);
 
   return (
-    <div>
+    <div id="home">
       <Header />
       <motion.div
         initial={{ y: -1000, opacity: 0 }}

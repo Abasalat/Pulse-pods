@@ -17,7 +17,7 @@ const Products = () => {
     }
   }, [inView]);
   return (
-    <div className={styles.main}>
+    <div className={styles.main} id="products">
       <motion.center
         ref={ref}
         initial="hidden"

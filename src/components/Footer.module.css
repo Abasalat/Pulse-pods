@@ -1,0 +1,39 @@
+.main{
+    gap: 5rem;
+    color: white;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    border-top: 1px white solid;
+    width: 80%;
+    gap: 6rem;
+}
+.list {
+    width: 25%; /* Set width of each list */
+    margin-top: 3rem;
+}
+
+.list>h1{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+  
+  .list ul {
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    margin-top: 5rem;
+  }
+  
+  .list ul li {
+    list-style: none; /* Remove bullet points */
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 3rem;
+    font-weight: 500;
+  }
+  

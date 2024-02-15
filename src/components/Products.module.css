@@ -4,6 +4,7 @@
     justify-content: space-around;
     color: white;
     gap: 3rem;
+    min-height: 100vh;
 }
 .heading{
     font-size: 80px;
@@ -20,6 +21,7 @@
     flex-direction: column;
     gap: 3rem;
     align-items: center;
+    font-family: sans-serif;
 }
 
 .item{
@@ -32,8 +34,35 @@
     background-color: white;
     border-radius: 51% 49% 76% 24% / 64% 65% 35% 36% ;
     transition: border-radius 500ms ease-in-out;
+    
 }
 
 .item img {
     width: 300px; /* adjust image width to be larger than container */
+}
+
+.explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-family: sans-serif;
+
+}
+
+.explore>:nth-child(2){
+    width:250px;
+    font-size: 30px;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    cursor: pointer;
+}
+.explore>:nth-child(2):hover{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
 }

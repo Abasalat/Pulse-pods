@@ -63,6 +63,20 @@ const Home = () => {
                 className={styles.scale}
                 key={index}
                 whileHover={{ scale: 1.5 }}
+                initial="hidden"
+                animate="visible"
+                variants={{
+                  hidden: { opacity: 0, x: -100 },
+                  visible: {
+                    opacity: 1,
+                    x: 0,
+                    transition: {
+                      delay: 3,
+                      staggerChildren: 0.05,
+                      duration: 1,
+                    },
+                  },
+                }}
               >
                 {letter}
               </motion.p>
@@ -72,13 +86,32 @@ const Home = () => {
           <div className={styles.text}>
             <span>a word where </span>
             <motion.p
-              initial={{ y: -10, opacity: 0 }}
+              initial={{ y: -20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1 }}
+              transition={{ duration: 1, delay: 2 }}
             >
               {message[prevIndex]}
             </motion.p>
           </div>
+          <motion.h1
+            className={styles.heading2}
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: { opacity: 0, x: -100 },
+              visible: {
+                opacity: 1,
+                x: 0,
+                transition: {
+                  delay: 3,
+                  staggerChildren: 0.05,
+                  duration: 1,
+                },
+              },
+            }}
+          >
+            At PulsePods, we define your auditory experience with
+          </motion.h1>
         </div>
       </motion.div>
     </div>
